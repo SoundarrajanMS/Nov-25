@@ -19,14 +19,8 @@ JavascriptExecutor je = (JavascriptExecutor)driver;
 
 je.executeScript("arguments[0].scrollIntoView(true)",down);
 
-Thread.sleep(5000);
 
-WebElement up = driver.findElement(By.xpath("//a[text()='TESTIMONIALS']"));
-
-je.executeScript("arguments[0].scrollIntoView(false)",up);
-
-
-
+System.out.println("abi");
 
 
 
